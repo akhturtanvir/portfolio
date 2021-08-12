@@ -180,7 +180,7 @@ if ($(window).width() > 992) {
 *************************/
   var win = $(window),
       foo = $('#typer');
-      foo.typer(['<h2>UX/UI Designer / Web Developer </h2>', '<h2>frontend developer</h2>' ]);           
+      foo.typer(['<h2>Jr. Software Engineer</h2>', '<h2>frontend developer <span style="color:#2f3742"> - react</span></h2>', '<h2>backend web application developer <span style="color:#2f3742"> - PHP (Laravel)</span></h2>' ]);           
             win.resize(function(){
                 var fontSize = Math.max(Math.min(win.width() / (1 * 10), parseFloat(Number.POSITIVE_INFINITY)), parseFloat(Number.NEGATIVE_INFINITY));
                 foo.css({
